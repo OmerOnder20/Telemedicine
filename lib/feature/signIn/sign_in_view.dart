@@ -5,8 +5,8 @@ import 'package:flutter_ui/product/navigator/app_router.dart';
 
 import '../../product/constants/assets_constants.dart';
 import '../../product/constants/string_constants.dart';
-import '../../product/utility/colors/color_utility.dart';
-import '../../product/utility/spacer/spacer_utility.dart';
+import '../../product/utility/color_utility.dart';
+import '../../product/utility/spacer_utility.dart';
 import '../../product/widgets/buttons/custom_elevated_button.dart';
 import '../../product/widgets/textFormFields/custom_text_form_field.dart';
 import '../../product/widgets/texts/titleLarge/title_large_2.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../product/constants/string_constants.dart';
-import '../../../product/utility/colors/color_utility.dart';
+import '../../../product/utility/color_utility.dart';
 import '../../../product/widgets/texts/titleMedium/title_medium_1.dart';
 import '../../../product/widgets/texts/titleSmall/title_small_2.dart';
 

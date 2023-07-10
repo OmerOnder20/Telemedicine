@@ -14,4 +14,6 @@ class ColorUtility {
   static const Color textColorDarkBlue = Color(0xff255ED6);
   static const Color scaffoldBackgroundColor = Color(0xffE6EFF9);
   static const Color dividerGreen = Color(0xff83D047);
+  static const Color switchGreyColor = Color(0xffE5E5E5);
+  static const Color colorRed = Color(0xffE85050);
 }

@@ -2,11 +2,8 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_ui/feature/docProfile/widgets/doc_profile_column.dart';
-import 'package:flutter_ui/product/utility/colors/color_utility.dart';
-import 'package:flutter_ui/product/widgets/texts/titleLarge/title_large_2.dart';
-
-import '../../product/utility/widgetSizes/sizes.dart';
-import '../../product/widgets/buttons/pop_button.dart';
+import 'package:flutter_ui/product/utility/color_utility.dart';
+import 'package:flutter_ui/product/widgets/appbar/custom_app_bar.dart';
 
 @RoutePage()
 class DocProfileView extends StatefulWidget {
@@ -21,23 +18,7 @@ class _DocProfileViewState extends State<DocProfileView> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: ColorUtility.colorWhite,
-      appBar: AppBar(
-        backgroundColor: ColorUtility.colorWhite,
-        elevation: 0,
-        toolbarHeight: WidgetSizes.docProfileAppBarHeight,
-        leading: Padding(
-          padding: EdgeInsets.only(top: 20.h),
-          child: const PopButton(),
-        ),
-        title: Padding(
-          padding: EdgeInsets.only(top: 20.h),
-          child: const TitleLarge2(
-            text: "Dr.Kate Adams",
-            color: ColorUtility.textColorGrey,
-          ),
-        ),
-        centerTitle: true,
-      ),
+      appBar: const CustomAppBar(text: "Dr.Kate Adams"),
       body: Stack(children: [
         const DoctorProfileImage(),
         const DocProfileGradient(),

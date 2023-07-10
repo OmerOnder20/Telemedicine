@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_ui/product/utility/colors/color_utility.dart';
-import 'package:flutter_ui/product/utility/spacer/spacer_utility.dart';
+import 'package:flutter_ui/product/utility/color_utility.dart';
+import 'package:flutter_ui/product/utility/spacer_utility.dart';
 
-import '../../utility/widgetSizes/sizes.dart';
+import '../../utility/sizes.dart';
 import '../texts/titleSmall/title_small_2.dart';
 
 class CustomTextFormField extends StatelessWidget {

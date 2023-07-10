@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../utility/sizes.dart';
+
 class CustomElevatedButton extends StatelessWidget {
   final String text;
   final void Function() onPressed;
@@ -14,7 +16,7 @@ class CustomElevatedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-        height: 52.h,
+        height: WidgetSizes.customElevatedButtonHeight,
         width: double.infinity,
         child: ElevatedButton(
             style: ElevatedButton.styleFrom(

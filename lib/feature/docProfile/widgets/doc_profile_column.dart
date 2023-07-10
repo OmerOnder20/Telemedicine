@@ -1,8 +1,10 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_ui/product/navigator/app_router.dart';
 
 import '../../../product/constants/string_constants.dart';
-import '../../../product/utility/colors/color_utility.dart';
-import '../../../product/utility/spacer/spacer_utility.dart';
+import '../../../product/utility/color_utility.dart';
+import '../../../product/utility/spacer_utility.dart';
 import '../../../product/widgets/buttons/custom_elevated_button.dart';
 import '../../../product/widgets/texts/labelMedium.dart/label_medium_2.dart';
 import '../../../product/widgets/texts/labelMedium.dart/label_medium_3.dart';
@@ -91,7 +93,9 @@ class DocProfileColumn extends StatelessWidget {
         SpacerUtility.smallXX,
         CustomElevatedButton(
             text: StringConstants.bookAn,
-            onPressed: () {},
+            onPressed: () {
+              context.router.push(const AppointmentRoute());
+            },
             color: ColorUtility.textColorDarkBlue)
       ],
     );

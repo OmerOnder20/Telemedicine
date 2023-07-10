@@ -21,10 +21,22 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const AllDoctorsView(),
       );
     },
+    AppointmentRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const AppointmentView(),
+      );
+    },
     DashboardRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
         child: const DashboardView(),
+      );
+    },
+    DocProfileRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const DocProfileView(),
       );
     },
     HomeRoute.name: (routeData) {
@@ -63,10 +75,22 @@ abstract class _$AppRouter extends RootStackRouter {
         child: const SignUpView(),
       );
     },
-    DocProfileRoute.name: (routeData) {
+    ProfileRoute.name: (routeData) {
       return AutoRoutePage<dynamic>(
         routeData: routeData,
-        child: const DocProfileView(),
+        child: const ProfileView(),
+      );
+    },
+    SettingsRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const SettingsView(),
+      );
+    },
+    MyAppointmentRoute.name: (routeData) {
+      return AutoRoutePage<dynamic>(
+        routeData: routeData,
+        child: const MyAppointmentView(),
       );
     },
   };
@@ -87,6 +111,20 @@ class AllDoctorsRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
+/// [AppointmentView]
+class AppointmentRoute extends PageRouteInfo<void> {
+  const AppointmentRoute({List<PageRouteInfo>? children})
+      : super(
+          AppointmentRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'AppointmentRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
 /// [DashboardView]
 class DashboardRoute extends PageRouteInfo<void> {
   const DashboardRoute({List<PageRouteInfo>? children})
@@ -96,6 +134,20 @@ class DashboardRoute extends PageRouteInfo<void> {
         );
 
   static const String name = 'DashboardRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [DocProfileView]
+class DocProfileRoute extends PageRouteInfo<void> {
+  const DocProfileRoute({List<PageRouteInfo>? children})
+      : super(
+          DocProfileRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'DocProfileRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }
@@ -185,15 +237,43 @@ class SignUpRoute extends PageRouteInfo<void> {
 }
 
 /// generated route for
-/// [DocProfileView]
-class DocProfileRoute extends PageRouteInfo<void> {
-  const DocProfileRoute({List<PageRouteInfo>? children})
+/// [ProfileView]
+class ProfileRoute extends PageRouteInfo<void> {
+  const ProfileRoute({List<PageRouteInfo>? children})
       : super(
-          DocProfileRoute.name,
+          ProfileRoute.name,
           initialChildren: children,
         );
 
-  static const String name = 'DocProfileRoute';
+  static const String name = 'ProfileRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [SettingsView]
+class SettingsRoute extends PageRouteInfo<void> {
+  const SettingsRoute({List<PageRouteInfo>? children})
+      : super(
+          SettingsRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'SettingsRoute';
+
+  static const PageInfo<void> page = PageInfo<void>(name);
+}
+
+/// generated route for
+/// [MyAppointmentView]
+class MyAppointmentRoute extends PageRouteInfo<void> {
+  const MyAppointmentRoute({List<PageRouteInfo>? children})
+      : super(
+          MyAppointmentRoute.name,
+          initialChildren: children,
+        );
+
+  static const String name = 'MyAppointmentRoute';
 
   static const PageInfo<void> page = PageInfo<void>(name);
 }

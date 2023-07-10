@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_ui/product/constants/string_constants.dart';
-import 'package:flutter_ui/product/utility/colors/color_utility.dart';
+import 'package:flutter_ui/product/utility/color_utility.dart';
 
 import 'product/navigator/app_router.dart';
 

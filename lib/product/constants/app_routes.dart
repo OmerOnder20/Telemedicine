@@ -8,6 +8,10 @@ class AppRoutes {
   static const String routeSignIn = "/signIn";
   static const String routeDashboard = "/dashboard";
   static const String routeDocProfile = "/docProfile";
+  static const String routeAppointment = "/appointment";
+  static const String routeProfile = "/profile";
+  static const String routeSettings = "/settings";
+  static const String routeMyAppointment = "/myAppointment";
   static const String routeHome = "home";
   static const String routeNoti = "notifications";
   static const String routeMenu = "menu";

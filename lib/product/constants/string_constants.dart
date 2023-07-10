@@ -29,4 +29,25 @@ class StringConstants {
   static const String patients = "Patients";
   static const String review = "Review";
   static const String bookAn = "Book an Appoinment";
+  static const String appointment = "Appointment";
+  static const String confirmAppointment = "Confirm Appointment";
+  static const String appointmentDate = "Appointment Date";
+  static const String appointmentTime = "Appointment Time";
+  static const String myAppointment = "My Appointment";
+  static const String profile = "Profile";
+  static const String settings = "Settings";
+  static const String logOut = "Log Out";
+  static const String edit = "Edit";
+  static const String name = "Name";
+  static const String phoneNumber = "Phone Number";
+  static const String address = "Address";
+  static const String upcoming = "Upcoming";
+  static const String past = "Past";
+  static const String date = "Date";
+  static const String time = "Time";
+  static const String doctor = "Doctor";
+  static const String appointmentType = "Appointment Type";
+  static const String place = "Place";
+  static const String cancel = "Cancel";
+  static const String reschedule = "Reschedule";
 }

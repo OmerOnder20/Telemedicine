@@ -7,9 +7,9 @@ import 'package:flutter_ui/feature/home/widgets/home_card_item.dart';
 import 'package:flutter_ui/feature/home/widgets/home_category_row.dart';
 import 'package:flutter_ui/feature/home/widgets/home_doctors_row.dart';
 import 'package:flutter_ui/product/navigator/app_router.dart';
-import 'package:flutter_ui/product/utility/colors/color_utility.dart';
-import 'package:flutter_ui/product/utility/spacer/spacer_utility.dart';
-import 'package:flutter_ui/product/utility/widgetSizes/sizes.dart';
+import 'package:flutter_ui/product/utility/color_utility.dart';
+import 'package:flutter_ui/product/utility/spacer_utility.dart';
+import 'package:flutter_ui/product/utility/sizes.dart';
 
 import '../../product/constants/string_constants.dart';
 import '../../product/widgets/items/custom_row.dart';

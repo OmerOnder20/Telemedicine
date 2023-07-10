@@ -3,8 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_ui/product/constants/assets_constants.dart';
 
-import '../../../product/utility/colors/color_utility.dart';
-import '../../../product/utility/spacer/spacer_utility.dart';
+import '../../utility/color_utility.dart';
+import '../../utility/spacer_utility.dart';
 import '../../../product/widgets/texts/headlineSmall/headline_small_1.dart';
 import '../../../product/widgets/texts/titleLarge/title_large_3.dart';
 

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../../../product/utility/colors/color_utility.dart';
-import '../../../product/utility/widgetSizes/sizes.dart';
+import '../../../product/utility/color_utility.dart';
+import '../../../product/utility/sizes.dart';
 import '../../../product/widgets/texts/labelMedium.dart/label_medium_1.dart';
 
 class CategoryCardItem extends StatelessWidget {

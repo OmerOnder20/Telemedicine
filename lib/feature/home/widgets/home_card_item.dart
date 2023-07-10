@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_ui/product/utility/widgetSizes/sizes.dart';
+import 'package:flutter_ui/product/utility/sizes.dart';
 
-import '../../../product/utility/colors/color_utility.dart';
+import '../../../product/utility/color_utility.dart';
 import '../../../product/widgets/texts/labelSmall/label_small_1.dart';
 import '../../../product/widgets/texts/labelMedium.dart/label_medium_1.dart';
 import '../../../product/widgets/texts/titleSmall/title_small_2.dart';

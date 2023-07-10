@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_ui/feature/home/widgets/doctor_card_item.dart';
 import 'package:flutter_ui/product/navigator/app_router.dart';
-import 'package:flutter_ui/product/utility/colors/color_utility.dart';
+import 'package:flutter_ui/product/utility/color_utility.dart';
 import 'package:flutter_ui/product/widgets/items/custom_row.dart';
 
 import '../../product/constants/string_constants.dart';
-import '../../product/utility/widgetSizes/sizes.dart';
+import '../../product/utility/sizes.dart';
 
 @RoutePage()
 class AllDoctorsView extends StatefulWidget {
@@ -17,9 +17,7 @@ class AllDoctorsView extends StatefulWidget {
   State<AllDoctorsView> createState() => _AllDoctorsViewState();
 }
 
-class _AllDoctorsViewState extends State<AllDoctorsView>
-    with TickerProviderStateMixin {
-  //Burası servisten gelecek.
+class _AllDoctorsViewState extends State<AllDoctorsView> {
   final List<String> alanAdi = [
     "Pediatrician",
     "Neurosurgeon",
@@ -67,6 +65,8 @@ class _AllDoctorsViewState extends State<AllDoctorsView>
                   return Padding(
                     padding: EdgeInsets.symmetric(horizontal: 15.w),
                     child: GridView.builder(
+                      scrollDirection: Axis.vertical,
+                      shrinkWrap: true,
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisCount: 2,
                           crossAxisSpacing: 15.w,

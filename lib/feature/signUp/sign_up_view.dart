@@ -2,13 +2,13 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_ui/product/constants/string_constants.dart';
-import 'package:flutter_ui/product/utility/spacer/spacer_utility.dart';
+import 'package:flutter_ui/product/utility/spacer_utility.dart';
 import 'package:flutter_ui/product/widgets/buttons/custom_elevated_button.dart';
 import 'package:flutter_ui/product/widgets/texts/titleSmall/title_small_1.dart';
 
 import '../../product/constants/assets_constants.dart';
 import '../../product/navigator/app_router.dart';
-import '../../product/utility/colors/color_utility.dart';
+import '../../product/utility/color_utility.dart';
 import '../../product/widgets/textFormFields/custom_text_form_field.dart';
 import '../../product/widgets/texts/titleLarge/title_large_2.dart';
 

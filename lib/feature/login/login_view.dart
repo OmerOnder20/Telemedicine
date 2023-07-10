@@ -2,13 +2,13 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_ui/product/navigator/app_router.dart';
-import 'package:flutter_ui/product/utility/colors/color_utility.dart';
+import 'package:flutter_ui/product/utility/color_utility.dart';
 import 'package:flutter_ui/product/widgets/buttons/custom_elevated_button.dart';
 import 'package:flutter_ui/product/widgets/texts/titleLarge/title_large_1.dart';
 
 import '../../product/constants/assets_constants.dart';
 import '../../product/constants/string_constants.dart';
-import '../../product/utility/spacer/spacer_utility.dart';
+import '../../product/utility/spacer_utility.dart';
 
 @RoutePage()
 class LoginView extends StatefulWidget {

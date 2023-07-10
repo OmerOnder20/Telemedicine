@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class LabelSmall1 extends StatelessWidget {
+class LabelSmall2 extends StatelessWidget {
   final String text;
   final Color color;
-  const LabelSmall1({super.key, required this.text, required this.color});
+  const LabelSmall2({super.key, required this.text, required this.color});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class LabelSmall1 extends StatelessWidget {
       style: Theme.of(context)
           .textTheme
           .labelMedium
-          ?.copyWith(color: color, fontWeight: FontWeight.w300),
+          ?.copyWith(color: color, fontWeight: FontWeight.w500),
     );
   }
 }

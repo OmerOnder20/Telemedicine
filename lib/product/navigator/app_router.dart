@@ -1,12 +1,16 @@
 import 'package:auto_route/auto_route.dart';
 
 import '../../feature/allDoctors/all_doctors_view.dart';
+import '../../feature/appointment/appointment_view.dart';
 import '../../feature/dashboard/dashboard_view.dart';
 import '../../feature/docProfile/doc_profile_view.dart';
 import '../../feature/home/home_view.dart';
 import '../../feature/login/login_view.dart';
 import '../../feature/menu/menu_view.dart';
+import '../../feature/myAppointment/my_appointment_view.dart';
 import '../../feature/notifications/notifications_view.dart';
+import '../../feature/profile/profile_view.dart';
+import '../../feature/settings/settings_view.dart';
 import '../../feature/signIn/sign_in_view.dart';
 import '../../feature/signUp/sign_up_view.dart';
 import '../constants/app_routes.dart';
@@ -33,6 +37,12 @@ class AppRouter extends _$AppRouter {
             AutoRoute(page: MenuRoute.page, path: AppRoutes.routeMenu),
           ],
         ),
-        AutoRoute(page: DocProfileRoute.page, path: AppRoutes.routeDocProfile)
+        AutoRoute(page: DocProfileRoute.page, path: AppRoutes.routeDocProfile),
+        AutoRoute(
+            page: AppointmentRoute.page, path: AppRoutes.routeAppointment),
+        AutoRoute(page: ProfileRoute.page, path: AppRoutes.routeProfile),
+        AutoRoute(page: SettingsRoute.page, path: AppRoutes.routeSettings),
+        AutoRoute(
+            page: MyAppointmentRoute.page, path: AppRoutes.routeMyAppointment)
       ];
 }
